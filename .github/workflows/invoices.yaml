@@ -36,4 +36,4 @@ jobs:
         env:
           GCP_SERVICE_ACCOUNT: ${{ secrets.GCP_SERVICE_ACCOUNT }}
           PENNYLANE_TOKENS: ${{ secrets.PENNYLANE_TOKENS }}
-        run: scraper_opportunities.py
+        run: get_invoices.py
