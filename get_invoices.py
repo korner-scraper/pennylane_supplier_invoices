@@ -15,7 +15,7 @@ creds = service_account.Credentials.from_service_account_info(creds_dict, scopes
 
 
 # Constants
-BQ_TABLE = "Pennylane.suppliers_invoices"
+BQ_TABLE = "Test.suppliers_invoices"
 PROJECT_ID = "korner-datalake"
 BASE_URL = "https://app.pennylane.com/api/external/v2/supplier_invoices"
 filters = [{"field": "date", "operator": "gteq", "value": "2025-01-01"}]
