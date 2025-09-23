@@ -2,7 +2,7 @@ name: Scheduled Pennylane Data Fetch
 
 on:
   schedule:
-    - cron: '0 8 * * *'  #Feel free to modify
+    - cron: '0 6 * * *'  #Feel free to modify
   workflow_dispatch:
 
 jobs:
